@@ -1,0 +1,14 @@
+# Environment and secrets (never commit)
+.env
+.env.*
+!.env.example
+
+# Dependencies and build
+node_modules/
+frontend/node_modules/
+frontend/build/
+backend/.venv/
+backend/venv/
+__pycache__/
+*.py[cod]
+.DS_Store
